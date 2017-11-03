@@ -1,41 +1,28 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<title>Contact</title>
-
 	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-	<header>
-		<div class="navbar">
-	
+	<div class="pageTop">
+	<header class="navbar">
 		<h1 id="nameLogo">Barry Williams</h1>
-	<!--
-		<button class="navbuttons" id="aboutButton">About</button>
-		<button class="navbuttons" id="portButton">Portfolio</button>
-		<button class="navbuttons" id="contactButton">Contact</button>
-	-->
-		<a class="navbuttons" id="aboutButton" href="http://kappalegnami.com/">About</a>
+		<nav>
+			<a class="navbuttons" id="aboutButton" href="/Users/b_dub/makeitsoo.github.io/index.html">About</a>
 
-		<a class="navbuttons" id="portButton" href="http://kappalegnami.com/">Portfolio</a>
+			<a class="navbuttons" id="portButton" href="/Users/b_dub/makeitsoo.github.io/portfolio.html">Portfolio</a>
 
-		<a class="navbuttons" id="contactButton" href="http://kappalegnami.com/">Contact</a>
-		
-		</div>
-
+			<a id="contactButton" href="/Users/b_dub/makeitsoo.github.io/contact.html">Contact</a>
+		</nav>
 	</header>
-
-	<div class="container">
-		<section id="main-contact">
-		<h2>Contact</h2>
-
-			<figure id="line1"></figure>
-			
+	</div>
+	<div class=clearfix>
+<section>
+	<article id="main-contact">
+		<h2>Contact</h2>			
 
 			<p class="labels" id="label1">Name</p>
 			<p class="textBox" id="tb1">John Smith</p>
@@ -47,24 +34,22 @@
 			
 			<a id="submitButton" href="http://kappalegnami.com/">Submit</a>
 
-		</section>
+	</article>
 
-		<section id="sidebar">
+		<aside>
 			<h3>Connect With Me</h3>
-
-			<figure id="line2"></figure>
-	
-			<img id="linkedin" src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="LinkedIn-icon"/>
-
-			<img id="git" src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Github-icon.png" alt="Github-icon"/>
-
-			<img id="stack" src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/stackoverflow-128.png" alt="Stackoverflow-icon"/>
-
+					<!--LinkedIn link-->
+				<a target="_blank" href="https://www.linkedin.com/in/barrywilliams4"><img class="social" src="assets/images/linkedin.png" alt="LinkedIn"></a>
+					<!--StackOverflow link-->
+				<a target="_blank" href="https://stackexchange.com/users/11853069/makeitso"><img class="social" src="assets/images/stack.png" alt="StackOverflow"></a>
+					<!--Github link-->
+				<a target="_blank" href="https://github.com/makeitsoo"><img class="social" src="assets/images/git.png" alt="Github"></a>
+		</aside>
 		</section>
 		
-		<section id="footer">
-			<p>Copyright(C) 2017 Barry Williams</p>
-		</section>
+		<footer>
+			Copyright © 2017 Barry Williams
+		</footer>
 	</div>
 
 </body>

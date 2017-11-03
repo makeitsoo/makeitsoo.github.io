@@ -92,12 +92,25 @@ section {
 	border-right: 2px solid #cccccc;
 	margin-left: 10px;
 	padding-right: 10px;
+	text-decoration: none;
 }
-
+a.navbuttons:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a#contactButton:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+}
 #contactButton {
 	float: left;
 	margin-left: 10px;
 	padding-right: 10px;
+	text-decoration: none;
 }
 
 aside {
