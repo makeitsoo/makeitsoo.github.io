@@ -1,24 +1,3 @@
-
-/* be sure to use the correct parent/child relationship when it comes 
-to ordering code. Also must pay attention for the hierarcby of the 
-classes/id/etc.. If something is a class and an id, both of which specify 
-different colors which then takes presidence? Here are the rules: 
-
-Order on page:
-First: body, header, a, h1, h2, h3, h4
-Second: class (.)
-Third: id (#)
-
-Hierarchy:
-id (#) will always be given priority vs. class (.) because it is specific 
-to the element.
-
-Does not have to use these even if HTML has the hooks. Also sometimes uncessary 
-to specify anything for body if everything in the body is already part of 
-class or id being used in CSS to cusotmize. 
-*/
-
-
 html {
 	/*width:auto;*/
 	background-image:url(../images/topography.png);
@@ -27,6 +6,10 @@ html {
 
 body {
 	margin: 0px;
+
+}
+
+.site {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -247,4 +230,5 @@ textarea {
     padding: 10px 20px 10px 20px;
     color: #ffffff;
     font-size: 15px;
+    margin-bottom: 15px;
  }

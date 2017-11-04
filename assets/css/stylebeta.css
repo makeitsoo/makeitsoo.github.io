@@ -1,80 +1,4 @@
-<aside>
-      	       <h1>Connect with me </h1>
-               <div id="links">
-                      <a class="image" href="https://plus.google.com/u/0/112602357227158926848" target="_blank"> <img src="assets/images/google.png"> </a>
-
-
-                           <!--Link to the google+ -->
-
-                      <a href="https://github.com/cupururum" target="_blank"> <img src="assets/images/github.png"> </a>
-
-                           <!--Link to the github-->
-
-                      <a href="https://www.instagram.com/cupururum/?hl=en" target="_blank"> <img src="assets/images/inst.png"> </a>
-
-                           <!--Link to the instagram-->
-
-                       <a href="https://www.facebook.com/lera.romashchenko" target="_blank"> <img src="assets/images/facebook.png"> </a>
-
-
-                           <!--Link to the Facebook-->
-
-
-                       <a href="https://www.linkedin.com/in/valeriya-romashchenko-656b124b/" target="_blank"> <img src="assets/images/if_linkedin.png"> </a>
-
-
-                           <!--Link to the LinkedIn-->
-
-                      <a href="https://twitter.com/cuprum_42" target="_blank"> <img src="assets/images/twitter.png"> </a>
-
-
-                           <!--Link to the twitter-->
-               </div>
-          </aside>
-
-
-
-
-/* be sure to use the correct parent/child relationship when it comes 
-to ordering code. Also must pay attention for the hierarcby of the 
-classes/id/etc.. If something is a class and an id, both of which specify 
-different colors which then takes presidence? Here are the rules: 
-
-Order on page:
-First: body, header, a, h1, h2, h3, h4
-Second: class (.)
-Third: id (#)
-
-Hierarchy:
-id (#) will always be given priority vs. class (.) because it is specific 
-to the element.
-
-
-Does not have to use these even if HTML has the hooks. Also sometimes uncessary 
-to specify anything for body if everything in the body is already part of 
-class or id being used in CSS to cusotmize. 
-
-
---
-
-
-1. Colors _Pro-tip: Use the [Eye Dropper] Chrome extension to find the colors used on web pages.
-   * Teal color (used for headings and backgrounds): `#4aaaa5`
-   * Regular font color (used for paragraphs and all text besides the headings):`#777777`
-   * Main header background color: `#ffffff`
-   * Main header border color: `#cccccc`
-   * Footer background color: `#666666`
-   * Main content background color: `#ffffff`
-   * Main content border color: `#dddddd`
-
-2. Fonts:
-   * For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
-   * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`.
-
-*/
-
 html {
-  /*width:auto;*/
   background-image:url(../images/topography.png);
   height:100%;
 }
@@ -84,17 +8,6 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  /*width:960px;
-  margin:auto;*/
-  /*
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-right:32px;
-  margin-left:32px;
-  margin-top:0px;
-  margin:0px 32px 0px 32px;
-  */
 }
 
 h1 {
@@ -214,7 +127,6 @@ footer {
 }
 
 .social {
-  /*background-color: #ffffff;*/
   width:64px;
   height:64px;
   margin-left:15px;
@@ -234,19 +146,7 @@ footer {
   width:200px;
   margin-bottom: 5px;
 }
-/*
-#main-aboutme {
-  border-style:solid;
-  border-width:1px;
-  border-color:#dddddd;
-  background-color: #ffffff;
-  float:left;
-  width:623px;
-  padding-left:25px;
-  margin-top: 42px;
-  margin-left:240px;
-}
-*/
+
 article {
   border-style:solid;
   border-width:1px;
